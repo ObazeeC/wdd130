@@ -28,6 +28,9 @@ p {
 
 footer {
     margin-top: 45px;
-    border-top: dotted black;
+    border-top: solid rgba(0,0,0,0.3);
     text-align: center;
 }
+
+/* these rule needed to be set 
+nav rule, nav a (nav anchor rule), H1 rule.
