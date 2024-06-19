@@ -6,9 +6,10 @@
     --accent1-color: #061634;
     --accent2-color: #baff29;
  
-   
-    --paragraph-font-family:'montserrat','lato','sans serif';
-    --heading-font-family: 'merriweather','sans serif';
+    
+    --heading-font: 'merriweather','sans serif';
+    --paragraph-font:'montserrat','lato','sans serif';
+ 
 
     --heading-font:var(--secondary-color);
     --paragraph-font:var(--accent1-color);
@@ -16,17 +17,17 @@
     --nav-backgound-color:var(--accent2-color);
     --nav-link-color:var(--accent2-color);
     --nav-hover-link-color:var(--secondary-color);
-    --nav-hover-background-color:var(--primary-color)
+    --nav-hover-background-color:var(--primary-color);
 }
 /* Observe this rule very well again before submitting.*/
 body{
-    font-family:var(--paragraph-font-family);
+    font-family:var(--paragraph-font);
     max-width: 960px;
     padding:20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family:var(--heading-font-family);
+    font-family:var(--heading-font);
     color:var(--secondary-color);
     background-color: var(--primary-color);
     padding:10px;
