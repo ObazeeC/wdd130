@@ -11,8 +11,8 @@
     --paragraph-font:'montserrat','lato','sans serif';
  
 
-    --heading-font:var(--secondary-color);
-    --paragraph-font:var(--accent1-color);
+    /*--heading-font:var(--secondary-color);
+    --paragraph-font:var(--accent1-color);*/
     
     --nav-backgound-color:var(--accent2-color);
     --nav-link-color:var(--accent2-color);
@@ -21,13 +21,13 @@
 }
 /* Observe this rule very well again before submitting.*/
 body{
-    font:var(--paragraph-font);
+    font-family:var(--paragraph-font);
     max-width: 960px;
     padding:20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font:var(--heading-font);
+    font-family:var(--heading-font);
     color:var(--secondary-color);
     background-color: var(--primary-color);
     padding:10px;
