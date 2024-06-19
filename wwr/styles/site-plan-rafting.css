@@ -7,8 +7,8 @@
     --accent2-color: #baff29;
  
    
-    --paragraph-font:'Montserrat','lato','sans serif';
-    --heading-font:'Merriweather', 'serif';
+    --paragraph-font-family:'montserrat','lato','sans serif';
+    --heading-font-family: 'merriweather','sans serif';
 
     --heading-font:var(--secondary-color);
     --paragraph-font:var(--accent1-color);
@@ -20,13 +20,13 @@
 }
 /* Observe this rule very well again before submitting.*/
 body{
-    font-family:var(--paragraph-font);
+    font-family:var(--paragraph-font-family);
     max-width: 960px;
     padding:20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family:var(--heading-font);
+    font-family:var(--heading-font-family);
     color:var(--secondary-color);
     background-color: var(--primary-color);
     padding:10px;
