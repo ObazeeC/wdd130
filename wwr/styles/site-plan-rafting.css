@@ -11,15 +11,13 @@
     --paragraph-font:'montserrat','lato','sans serif';
  
 
-    /*--heading-font:var(--secondary-color);
-    --paragraph-font:var(--accent1-color);*/
-    
     --nav-background-color:var(--accent2-color);
     --nav-link-color:var(--accent2-color);
     --nav-hover-link-color:var(--secondary-color);
     --nav-hover-background-color:var(--primary-color);
 }
-/* Observe this rule very well again before submitting.*/
+
+
 body{
     font-family:var(--paragraph-font);
     max-width: 960px;
