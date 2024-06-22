@@ -42,7 +42,7 @@ p {
 
  body{
     font-family:var(--paragraph-font);
-    max-width: 960px;
+   max-width: 960px;
     padding:20px;
 }
 
@@ -66,9 +66,10 @@ nav a {
 
 .hero h1{
     position:absolute;
-    top:0;
+    top:10px;
     left:33%;
     background-color:rgba(74,01,01, 0.4);
+
     
 }
    
