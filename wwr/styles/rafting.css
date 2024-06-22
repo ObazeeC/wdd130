@@ -42,7 +42,7 @@ p {
 }
 
 nav a {
-    display: block;
+    display: inline-block;
     color:var(--accent2-color);
     text-decoration: none;
     padding:1rem;
@@ -62,7 +62,8 @@ nav a {
     position:absolute;
     top:0;
     left:33%;
-    background-color:rgba(06,16,34, 0.6);
+    background-color:rgba(74,01,01, 0.4);
+    
 }
    
 .hero article{
