@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary-color: #740101;
+    --secondary-color:#00ff4c;
+    --accent1-color: #061634;
+    --accent2-color: #baff29;
+ 
+    
+    --heading-font: 'merriweather','sans serif';
+    --paragraph-font:'montserrat','lato','sans serif';
+ 
+
+    --nav-background-color:var(--accent1-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--secondary-color);
+    --nav-hover-background-color:var(--primary-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:var(--heading-font);
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+    padding:10px;
+}
+
+header {
+    padding:10px;
+    background-color: var(--accent1-color);
+    margin:10px;
+   }
+
+p {
+    padding:25px;
+    color:var(--accent1-color);
+   
+ }
+
+ body{
+    font-family:var(--paragraph-font);
+    max-width: 960px;
+    padding:20px;
+}
+
+nav a {
+    display: block;
+    color:var(--accent2-color);
+    text-decoration: none;
+    padding:1rem;
+}
+
+.hero {
+    position:relative;
+}
+    
+.hero img {
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.hero h1{
+    position:absolute;
+    top:0;
+    left:33%;
+    background-color:rgba(06,16,34, 0.6);
+}
+   
+.hero article{
+    position:absolute;
+    top:30%;
+    right:43px;
+    background-color: rgba(10,56,141,0.5);
+    border:solid rgba(06,16,34, 0.2);
+    width:90%;
+    height:50%;;
+}
+    
+.hero article img {
+    width: 200px;
+    height:auto;
+    float:right;
+    padding: 10px;
+
+}
+
+.hero article p{
+    color:white;
+}
