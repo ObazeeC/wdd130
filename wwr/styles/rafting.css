@@ -70,7 +70,7 @@ nav a {
     top:30%;
     right:43px;
     background-color: rgba(10,56,141,0.5);
-    border:solid rgba(06,16,34, 0.2);
+    /*border:solid rgba(06,16,34, 0.1);*/
     width:90%;
     height:50%;;
 }
