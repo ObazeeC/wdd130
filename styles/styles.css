@@ -48,6 +48,7 @@ aside h2 {
     position:absolute;
     right:35%;
     top:45px;
+    color:#fff;
 }
 
 .grid {
@@ -58,7 +59,7 @@ aside h2 {
 }
 header, footer, .grid{
     max-width: 840px;
-    margin:0 auto; /*ove to center of the page */
+    margin:0 auto; /*to center of the page these element */
 }
 
 nav {
