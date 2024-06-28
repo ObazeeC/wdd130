@@ -96,3 +96,23 @@ footer {
     color:#000;
 
 }
+
+
+/* another way to archieve similar
+.grid{
+display:grid;
+align-items:center;
+}
+
+main {
+grid-column:2/3;
+margin:1rem;
+}
+
+aside{
+width:20rem;
+position:relative;
+grid-column:1/2;
+grid-row:1/2;
+}
+*/
