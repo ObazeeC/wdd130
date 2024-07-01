@@ -91,6 +91,9 @@ p {
 
 
  body{
+     display: grid;
+    /*grid-template-columns: 100%;*/
+    /*grid-template-rows:6% 2fr 5%;*/
     font-family:var(--paragraph-font);
     max-width: 960px;
     padding:20px;
@@ -140,4 +143,47 @@ p {
 .hero article p{
     color:white;
 }
+
+.section1 img{
+    max-width: 13rem;
+}
+
+.section2 img{
+    max-width: 13rem;
+}
+
+
+
+.footer{
+background-color:rgba(60, 60, 60, 0.3);
+display: flex;
+
+/*text-align: center;*/
+}
+
+.footer img{
+    max-width: 2rem;
+} 
+/*
+.footer{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+
+} 
+/*
+.icon{
+    display:flex;
+    justify-content: flex-end;
+}
+/*
+.section1{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section1 p{
+    grid-column: 1/2;
+
+}*/
 
