@@ -52,8 +52,6 @@ header {
 .navigation{
     display:flex;
    justify-content: flex-end;
-   
-   
 }
 
 nav a:hover {
@@ -73,7 +71,7 @@ color:var(--primary-color);
 
 
 p {
-    padding:25px;
+    padding:10px;
     color:var(--accent1-color);
    
  }
@@ -91,12 +89,12 @@ p {
 
 
  body{
-     display: grid;
+    /* display: grid;*/
     /*grid-template-columns: 100%;*/
     /*grid-template-rows:6% 2fr 5%;*/
     font-family:var(--paragraph-font);
-    max-width: 960px;
-    padding:20px;
+    /*max-width: 960px;*/
+    padding:10px;
 }
 
 
@@ -143,27 +141,77 @@ p {
 .hero article p{
     color:white;
 }
-
+ 
 .section1 img{
-    max-width: 13rem;
+    max-width: 70%;
+    justify-self: center;
+    align-self: center;
 }
+.section1{
+   /* background-color: #01a830;*/
+    display:grid;
+    width: 100%;
+    grid-template-columns: 1fr 0.9fr 1fr;
+    grid-template-rows:0.5fr 2fr;
+    justify-content: center;
+    margin:1px;
+}
+.section2{
+    display: grid;
+    width:100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr;
+    justify-content: center;
+    align-content: center;
+
+}
+.section1 h2{
+    grid-column:1/4;
+    text-align: center;
+}
+.section2 h2 {
+    grid-column: 1/6;
+    text-align: center;
+}
+
 
 .section2 img{
-    max-width: 13rem;
+    max-width:95%;
+   justify-items: center;
+    align-self: center;
 }
 
 
 
-.footer{
+footer{
 background-color:rgba(60, 60, 60, 0.3);
+margin: 15px;
+padding:15px;
+text-align: center;
 display: flex;
+max-width: 100%;
+}
+footer img{
+    max-width: 2rem;
+   flex-direction: flex-end;
+} 
 
-/*text-align: center;*/
+
+figcaption {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font: italic smaller sans-serif;
+    text-align: center;
+    padding:2px;
+}
+/*
+section {
+    display: grid;
+ 
+    grid-template-rows: 65px 1fr ;
+    margin:10px;
 }
 
-.footer img{
-    max-width: 2rem;
-} 
 /*
 .footer{
     display:grid;
@@ -176,12 +224,11 @@ display: flex;
     display:flex;
     justify-content: flex-end;
 }
-/*
-.section1{
-    display:grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+section{
+    display:flex;
+
 }
+    /*
 .section1 p{
     grid-column: 1/2;
 
