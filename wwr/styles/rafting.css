@@ -198,21 +198,17 @@ figcaption {
     width: 200px;
 }
 
-footer{
+  footer{
     background-color:rgba(60, 60, 60, 0.3);
     margin: 15px;
     padding:15px;
-    text-align: center;
     max-width: 100%;
+    display: flex;
+    
     }
     
     footer img{
         max-width: 2rem;
-        
     }
 
-footer{
-    display:flex;
-    flex-flow: flex-end;
-} 
-
+/*   */
