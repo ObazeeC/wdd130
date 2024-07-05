@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    
    
 }
 :root {
@@ -11,7 +12,7 @@
     --accent1-color: #061634;
     --accent2-color: #a4ca50;
  
-    
+
     --heading-font:'merriweather','sans serif';
     --paragraph-font:'montserrat','lato','sans serif';
  
@@ -89,9 +90,10 @@ p {
 
  body{
     font-family:var(--paragraph-font);
-    max-width:100%;
+     /*max-width: 1200px;
+      max-width:100%;*/
     padding:10px;
-    background-color: rgba(211, 235, 206 .2);
+    background-color: rgba(211, 235, 206, 0.2);
 }
 
 
