@@ -12,7 +12,7 @@
     --accent2-color: #a4ca50;
  
     
-    --heading-font: 'merriweather','sans serif';
+    --heading-font:'merriweather','sans serif';
     --paragraph-font:'montserrat','lato','sans serif';
  
 
@@ -88,9 +88,6 @@ p {
 
 
  body{
-    /* display: grid;*/
-    /*grid-template-columns: 100%;*/
-    /*grid-template-rows:6% 2fr 5%;*/
     font-family:var(--paragraph-font);
     max-width:100%;
     padding:10px;
