@@ -202,14 +202,12 @@ figcaption {
     background-color:rgba(60, 60, 60, 0.3);
     margin: 15px;
     padding:15px;
-    max-width: 100%;
     display: flex;
-    
     }
     
     footer img{
         max-width: 2rem;
         margin:5px;
+        
     }
 
-/*   */

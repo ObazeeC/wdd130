@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/pollform.css">
+</head>
+<body>
+<header>
+    <h1>W 130 | HTML Form - User Poll</h1>
+</header>
+    <main>
+       <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+             <label for="useremail">Email:</label>
+             <input type="email" id="userename" name="useremail">
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <label for="browser"> What is your favorite browser?</label>
+            <select id="browser" name="browser">
+                <option value="Edge"> Edge</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox">Firefox </option>
+                <option value="Brave">Brave </option>
+                <option value="Invidia">Invidia</option>
+                <option value="Opera mini">Opera Mini</option>
+                <option value="sefari">Sefari </option>
+            </select>
+            <label for="pet">Do you have a housepet?</label>
+            <input type="checkbox" id="pet" name="pet">
+
+            <label for="places">List the places you have lived:</label>
+          <textarea id="places" row="4" placeholder="Nigeria, Ghana, Italy, Lagos, Abuja"></textarea>
+        </fieldset>
+        <button type="submit"> Submit Poll</button>
+       </form>
+    </main>
+    <footer>
+        <p>©️2024 | HTML Form - User Poll Activity | Esosa C. Obazee </p> 
+    </footer>
+</body>
+</html>

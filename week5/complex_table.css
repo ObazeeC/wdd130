@@ -1,0 +1,64 @@
+table{
+    border: 2px solid rgb(140 140 140);
+    font: 16px "open Sans", Helvetica, Arial, sans-serif;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+thead > tr,
+tfoot > tr {
+background-color: rgba(23, 132, 179, 0.5);
+}
+
+th,
+td {
+    border:1px solid rgb(121, 86, 86);
+    padding: 4px 6px;
+}
+
+caption {
+    caption-side:bottom;
+    padding:10px;
+    font-weight: bold;
+}
+th {
+    vertical-align: bottom;
+}
+
+thead > tr {
+    background-color: rgba(0, 200, 2 , .1);
+}
+
+thead > tr:nth-of-type(2) {
+    border-bottom: 2px solid rgb(88, 161, 221);
+}
+
+/* This will style the last two row in the header row*/
+thead > tr:last-of-type > th:nth-of-type(1){
+    background-color: rgb(39, 230, 14);
+}
+thead > tr:last-of-type > th:nth-of-type(2){
+    background-color: rgb(255, 115, 0);
+}
+tbody > tr > th:first-of-type {
+    text-align: left;
+    background-color: rgba(255, 229, 244,.5);
+   
+}
+tbody > tr:nth-of-type(even){
+    background-color: rgb(160, 155, 155);
+}
+
+tbody >tr > td:last-of-type{
+    text-align: right;
+}
+
+tfoot > tr {
+    border-top:3px dashed rgb(140 140 140);
+    background-color: rgba(100, 229, 244,.5)
+}
+tfoot th,
+tfoot td {
+    text-align: right;
+    font-weight: bold;
+}
