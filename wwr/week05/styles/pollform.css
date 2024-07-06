@@ -1,44 +1,101 @@
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* { 
+ margin:0;
+ padding:0;
+ box-sizing:border-box;   
 }
-input,
-textarea,
-select,
-button{
-    width: 150px;
-    padding: 0;
-    margin:0;
-    box-sizing:border-box;
+body{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.2rem;
+    color:#333;
+    background-color: #fff;
 }
-body{
-    background-color: rgba(64, 64, 175, .2);
+header{
+    margin:0 auto;
+    width:650px;
+}
+h1{
+    margin:1rem;
+    font-size:1.5rem;
+    color:navy;
     text-align: center;
 }
+form{
+    width:650px;
+    margin:0 auto;
+    padding: 1rem;
+    border:1px solid rgba(0,0,0, .1);
+    border-radius: .5rem;
+    background-color: #eee;
+    display:grid;
+}
 fieldset{
-    position:relative;
+    display: grid;
+    grid-gap:.5rem;
+    margin:1rem;
+    border:1px solid rgba(0,0,0,.2);
+    padding: 1rem;
+
+}
+label, input,
+button, select,
+textarea {
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 legend{
-    position:absolute;
-    bottom:0;
-    right:0;
+   padding:.5rem;
+   color:navy;
+   font-size: 1.3em; 
 }
-form{
-    max-width: 400px;
-    display:inline-block;
-    border:1px solid black;
-    border-radius: 10px;
-    border-collapse: collapse;
-    padding:10px;
+label{
+    text-align:right;
+    padding:.5rem;
+    margin-right:.5rem;
 }
-{}
-{}
-{}
-{}
-{}
-{}
-{}
+
+input, select,
+textarea{
+    padding:0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"]{
+    width:22px;
+    height:22px;
+    vertical-align: bottom;
+}
+button{
+    margin:0 auto;
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: .5rem;
+    padding:.75rem;
+    font-size: 1.2rem;
+    width:150px;
+
+}
+button:hover{
+    background: darkgreen;
+}
+footer{
+    margin:1rem auto 0;
+    width:650px;
+    text-align:center;
+    font-size: 0.8em;
+    color:#777;
+    border-top:1px solid #ccc;
+}
+.form-item {
+    display:grid;
+    align-items:center;
+   
+    
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin:.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
 
