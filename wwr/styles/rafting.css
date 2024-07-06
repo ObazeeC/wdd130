@@ -67,8 +67,8 @@ nav a:link, nav a:visited {
 
 /* this is for all links*/
 a:hover{
-color:var(--primary-color);
-}
+    color:var(--primary-color);
+    }
 
 p {
     padding:10px;
@@ -90,8 +90,8 @@ p {
 
  body{
     font-family:var(--paragraph-font);
-     /*max-width: 1200px;
-      max-width:100%;*/
+     /*max-width: 960px;
+     /* max-width:100%;*/
     padding:10px;
     background-color: rgba(211, 235, 206, 0.2);
 }
@@ -216,6 +216,7 @@ footer p {
     grid-column: 2/4;
     justify-self: end;
     align-items: center;
+   /* font-size: 11px;*/
 }
 
 footer img{
@@ -233,4 +234,3 @@ footer img{
     justify-self: end;
     padding-right: 10px;
 }
- 
