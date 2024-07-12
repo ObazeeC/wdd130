@@ -23,13 +23,14 @@
     --nav-hover-background-color:var(--primary-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
     font-family:var(--heading-font);
     color:var(--secondary-color);
     background-color: var(--accent1-color);
     padding:10px;
     margin:10px;
 }
+
 h1{
     position: relative;
     left:35%;
