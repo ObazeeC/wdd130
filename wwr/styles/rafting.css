@@ -462,3 +462,121 @@ footer img{
     text-align:center;
     font-weight: bold;
 }
+
+.tripsection2{
+display: grid;
+grid-template-columns: 2fr .9fr;
+margin-top:2rem;
+
+}
+    
+.tripsection2a{
+    background-color: rgba(0, 220, 60, 0.2);
+   /* margin:1rem;*/
+   position:relative;
+   margin-right:3px ;
+}
+.tripsection2a img{
+width:100%;
+}
+.tripsection2a p{
+    text-align: center;
+    border-bottom: 2px solid rgba(161, 120, 5, 0.5);
+ }
+
+.tripsection2a a{
+position:absolute;
+color:white;
+font-weight: 800;
+top:2rem;
+right:5rem;
+}
+.tripsection2a a:hover  {
+    color:var(--secondary-color);
+}
+
+.tripsection2b{
+ grid-column: 2;
+ background-color:var(--accent2-color);
+}
+.tripsection2b img{
+width: 90%;
+border:1px solid white;
+margin-left:1.5rem;
+margin-top: 1rem;
+}
+
+.tripsection2b p{
+text-align:center;
+width:80%;
+margin-left:2rem;
+color:var(--primary-color);
+}   
+
+
+.tripsection2b h2{
+ text-align:center;
+ width: 90%;
+ margin-left:1.5rem;
+ }  
+
+
+.tripsection2b form{
+  width:400px;
+  margin-left: 2rem;
+  background-color:orange;
+}
+.tripsection2b button{
+   border-radius: .5rem;
+   margin-left:1rem;
+   margin-top:2rem;
+}
+.tripsection2b input{
+  margin: 5px;
+  padding:5px; 
+  width: 300px;
+}
+      
+.subsectiontrips{
+   width:90%;
+   margin:0 auto;
+    
+}  
+.subsectiontrips h2, h3{
+   text-align: center;
+   margin: 0;
+   background-color: unset;
+   color: var(--primary-color);
+   font-weight:bolder;
+   border-bottom: 2px solid black;
+}  
+.subsectiontrips p{
+    text-align: center;
+ }  
+
+.secondgrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--accent2-color);
+    margin-top: 2rem;
+ }  
+
+ .secondgrid img{
+ margin-top: 4rem;
+ margin-left:15rem;
+ width:300px;
+ }  
+ .secondgrid p{
+  text-align:center;
+  width:310px;
+  margin-left:14rem;
+    }  
+   
+ 
+   
+
+
+ 
+ 
