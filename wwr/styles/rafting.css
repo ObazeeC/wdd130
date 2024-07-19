@@ -408,7 +408,32 @@ footer img{
     text-align: center;
     margin: 1px; 
 }
+
 /*TRIPS*/
+.hero3trips{
+   width: 100%; 
+   position: relative;
+}
+.hero3trips h2{ 
+    position:absolute;
+    bottom:5rem;
+    left:5rem;
+    border-bottom:2px solid var(--accent2-color);
+    background-color: var(--primary-color);
+    border-radius:.5rem;
+ }
+ .hero3p{ 
+   position:absolute;
+   bottom:12rem;
+   width:40%;
+   color:black;
+   font-weight:bold;
+   margin-left:1.5rem;
+ }
+ 
+
+
+
 .imgtrips{
     display: grid;
     justify-content:center;
