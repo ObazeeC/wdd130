@@ -492,14 +492,19 @@ footer img{
     margin-top: .1rem;
     text-align:center;
     background-color: var(--accent2-color);
+    border-radius: 1rem;
 }
 
 .tableaside aside h3{
 background-color: var(--accent1-color);
 color:var(--accent2-color);
-margin-top:1px;
+border-radius: .5rem;
 }
 
+.asideheader{
+border-bottom:unset;
+}
+    
 .tableaside a{
     margin-top: 1rem;
     text-align:center;
