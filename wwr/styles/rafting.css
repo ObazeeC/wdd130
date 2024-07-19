@@ -554,6 +554,11 @@ color:var(--primary-color);
     text-align: center;
  }  
 
+ .subsectiontrips h3{
+    width:310px;
+    margin:0 auto;
+ }  
+
 .secondgrid{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -574,7 +579,11 @@ color:var(--primary-color);
   margin-left:14rem;
     }  
    
- 
+ .secondgrid h3{
+        text-align: center;
+        width:240px;
+        margin-left:17rem;
+}  
    
 
 
