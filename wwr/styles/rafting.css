@@ -414,6 +414,10 @@ footer img{
    width: 100%; 
    position: relative;
 }
+.hero3trips img{
+    width: 100%; 
+   height: auto;
+ }
 .hero3trips h2{ 
     position:absolute;
     bottom:5rem;
