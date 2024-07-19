@@ -425,7 +425,6 @@ footer img{
 
 .imgtrips p{
     margin:3px;
-    justify-self: start;
     text-align: center;
     width:550px ;
   
@@ -458,10 +457,19 @@ footer img{
     border: 5px solid orange;
     margin-top: .1rem;
     text-align:center;
+    background-color: var(--accent2-color);
 }
+
+.tableaside aside h3{
+background-color: var(--accent1-color);
+color:var(--accent2-color);
+margin-top:1px;
+}
+
 .tableaside a{
     margin-top: 1rem;
     text-align:center;
+    align-self: center;
     font-weight: bold;
 }
 
