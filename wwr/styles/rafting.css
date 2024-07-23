@@ -123,11 +123,17 @@ p {
 .hero h1{
     position:absolute;
     top:10px;
-    left:39%;
+     left:39%;
+     border-radius: .5rem;
+     border-bottom: 2px solid var(--secondary-color);
    /* background-color: rgba(186, 131, 131, 0.3)*/
-    background-color:rgba(74,01,01, 0.4);
-    color:white;
+    /*background-color:rgba(74,01,01, 0.4);*/
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    /*color:white;*/
+   
     padding:4px;
+  
 }
    
 .hero h2{
@@ -136,10 +142,13 @@ p {
     left:40%;
    /* background-color: rgba(186, 131, 131, 0.3)
     background-color:rgba(74,01,01, 0.4);*/
-    color:white;
+    background-color: var(--primary-color);
+    border-radius: .5rem;
+    border-bottom: 2px solid var(--secondary-color);
     padding:4px;
     font-size: 40px;
 }
+
 
 .herop{
    
@@ -155,7 +164,9 @@ p {
     position:absolute;
     top:30%;
     right:43px;
-    background-color: rgba(10,56,141,0.5);
+    /*background-color: rgba(10,56,141,0.5);*/
+    background-color: rgba(2, 36, 26, 0.4);
+    
     /*border:solid rgba(06,16,34, 0.1);*/
     width:90%;
     height:50%;
@@ -170,7 +181,9 @@ p {
 }
 
 .hero article p{
-    color:white;
+ /*   color:var(--secondary-color);*/
+ color:white;
+
 }
  
 .section1 img{
@@ -632,7 +645,16 @@ color:var(--primary-color);
         text-align: center;
         width:240px;
         margin-left:17rem;
-}  
+} 
+
+/*
+.hero3h2{
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    border-radius: .5rem;
+    border-bottom: 2px solid var(--secondary-color);
+}
+    */
    
 
 
